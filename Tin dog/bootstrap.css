@@ -1,0 +1,59 @@
+img{
+  /* height:720px; */
+  width:50px;
+  heigth:100px
+  border-radius:10px;
+}
+
+.container-fluid{
+  width:100%;
+  background-color: indianred;
+  height:60vh;
+}
+
+.icon-bg{
+  background-color: darkgrey;
+  border-radius:10px;
+}
+
+svg{
+  background-color: lightgrey; 
+  border-radius: 15%;
+}
+
+.section2{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height:25vh;
+  border: solid white;
+  }
+  
+  .card-text{
+    margin-top: 0;
+  }
+  
+  .btn{
+    width:350px;
+    height:45px;
+    text-align: center;
+  }
+  
+  .custom-btn {
+  background-color: white; /* Set your preferred background color */
+  color: black;
+  width: 200px;
+}
+
+/* Keep the hover effect */
+.custom-btn:hover {
+  background-color: lightgrey; /* Slightly darker shade for hover */
+  color: black; /* Optional - keep text color same on hover */
+}
+
+  .my-radial-gradient {
+    @include gradient-radial($inner-color: #ff0000, $outer-color: #0000ff);
+  }
+  
+  
+  
